@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# ============================================================
+# pre-push hook: 推完 origin 后自动用 git-filter-repo 改写作者推送到 coding
+# ============================================================
+# 激活方式：git config core.hooksPath scripts/git-hooks
+# 紧急绕过：git push --no-verify
+# ============================================================
+
+set -e
+
+remote="$1"
+url="$2"
+
+# 读取 git 标准输入
+while read local_ref local_sha remote_ref remote_sha; do
+    :
+done
+
+# 只对 push 到 origin 时触发
+if [ "$remote" = "origin" ]; then
+    echo ""
+    echo ">>> 检测到 push 到 origin，自动同步推送到 coding（作者改写为 weiyanhai）…"
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    bash "$SCRIPT_DIR/../push-coding.sh"
+    echo ">>> 双推完成 ✓"
+fi
+
+exit 0

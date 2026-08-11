@@ -6,85 +6,109 @@
       "id": "plugin-weather",
       "type": "plugin",
       "description": "Get current weather + 3-day forecast via Open-Meteo (free, no API key), rendered as a terminal card.",
-      "source": "https://github.com/x-ottojs/coding-agent.git",
-      "subPath": "extensions/plugin-weather",
-      "capabilities": ["tools", "tui.renderer"],
-      "keywords": ["weather", "forecast", "demo"],
+      "source": "@x-otto/plugin-weather",
+      "capabilities": [
+        "tools",
+        "tui.renderer"
+      ],
+      "keywords": [
+        "weather",
+        "forecast",
+        "demo"
+      ],
       "author": "otto-team",
       "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-weather",
-      "versionPolicy": "latest-tag"
+      "versionPolicy": "latest-release"
     },
     {
       "id": "plugin-anthropic",
       "type": "plugin",
       "description": "OAuth-based Anthropic Claude provider (PKCE flow, Claude Pro/Max subscription). Recommended for first-time users.",
-      "source": "https://github.com/x-ottojs/coding-agent.git",
-      "subPath": "extensions/plugin-anthropic",
-      "capabilities": ["provider"],
-      "keywords": ["anthropic", "claude", "provider", "oauth", "recommended"],
+      "source": "@x-otto/plugin-anthropic",
+      "capabilities": [
+        "provider"
+      ],
+      "keywords": [
+        "anthropic",
+        "claude",
+        "provider",
+        "oauth",
+        "recommended"
+      ],
       "author": "otto-team",
       "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-anthropic",
-      "versionPolicy": "latest-tag"
+      "versionPolicy": "latest-release"
     },
     {
       "id": "plugin-openai-codex",
       "type": "plugin",
       "description": "OAuth-based OpenAI ChatGPT subscription provider (PKCE flow).",
-      "source": "https://github.com/x-ottojs/coding-agent.git",
-      "subPath": "extensions/plugin-openai-codex",
-      "capabilities": ["provider"],
-      "keywords": ["openai", "chatgpt", "codex", "provider", "oauth"],
+      "source": "@x-otto/plugin-openai-codex",
+      "capabilities": [
+        "provider"
+      ],
+      "keywords": [
+        "openai",
+        "chatgpt",
+        "codex",
+        "provider",
+        "oauth"
+      ],
       "author": "otto-team",
       "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-openai-codex",
-      "versionPolicy": "latest-tag"
+      "versionPolicy": "latest-release"
     },
     {
       "id": "plugin-github-copilot",
       "type": "plugin",
       "description": "Device-flow OAuth + custom Copilot chat/completions protocol provider.",
-      "source": "https://github.com/x-ottojs/coding-agent.git",
-      "subPath": "extensions/plugin-github-copilot",
-      "capabilities": ["provider"],
-      "keywords": ["github", "copilot", "provider", "oauth"],
+      "source": "@x-otto/plugin-github-copilot",
+      "capabilities": [
+        "provider"
+      ],
+      "keywords": [
+        "github",
+        "copilot",
+        "provider",
+        "oauth"
+      ],
       "author": "otto-team",
       "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-github-copilot",
-      "versionPolicy": "latest-tag"
+      "versionPolicy": "latest-release"
     },
     {
       "id": "plugin-deepseek",
       "type": "plugin",
       "description": "API-key-based DeepSeek provider (declarative, zero code). Lowest cost option — ideal for testing and experimentation.",
-      "source": "https://github.com/x-ottojs/coding-agent.git",
-      "subPath": "extensions/plugin-deepseek",
-      "capabilities": ["provider"],
-      "keywords": ["deepseek", "provider", "api-key", "low-cost"],
+      "source": "@x-otto/plugin-deepseek",
+      "capabilities": [
+        "provider"
+      ],
+      "keywords": [
+        "deepseek",
+        "provider",
+        "api-key",
+        "low-cost"
+      ],
       "author": "otto-team",
       "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-deepseek",
-      "versionPolicy": "latest-tag"
+      "versionPolicy": "latest-release"
     },
     {
       "id": "plugin-cursor",
       "type": "plugin",
       "description": "Cursor subscription provider (catalog-only, macOS local import).",
-      "source": "https://github.com/x-ottojs/coding-agent.git",
-      "subPath": "extensions/plugin-cursor",
-      "capabilities": ["provider"],
-      "keywords": ["cursor", "provider"],
+      "source": "@x-otto/plugin-cursor",
+      "capabilities": [
+        "provider"
+      ],
+      "keywords": [
+        "cursor",
+        "provider"
+      ],
       "author": "otto-team",
       "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-cursor",
-      "versionPolicy": "latest-tag"
-    },
-    {
-      "id": "plugin-otto-wire-protocols",
-      "type": "plugin",
-      "description": "Wire protocol implementations (Anthropic Messages / OpenAI Responses / OpenAI Completions). Prerequisite for all provider plugins — auto-installed as a dependency.",
-      "source": "https://github.com/x-ottojs/coding-agent.git",
-      "subPath": "extensions/plugin-otto-wire-protocols",
-      "capabilities": ["wire-protocol"],
-      "keywords": ["wire-protocol", "provider-dependency", "infrastructure"],
-      "author": "otto-team",
-      "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-otto-wire-protocols",
-      "versionPolicy": "latest-tag"
+      "versionPolicy": "latest-release"
     }
   ]
 }

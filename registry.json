@@ -128,6 +128,27 @@
       "author": "otto-team",
       "homepage": "https://x-ottojs.github.io/otto/",
       "versionPolicy": "latest-release"
+    },
+    {
+      "id": "plugin-uipaas",
+      "type": "plugin",
+      "description": "JD internal Zero LLM gateway provider (OpenAI-compatible, intranet). Session auth via stone-sso browser flow: `otto auth login uipaas` opens SSO page, CLI polls session id and auto-refreshes.",
+      "source": "@x-otto/plugin-uipaas",
+      "capabilities": [
+        "provider"
+      ],
+      "keywords": [
+        "uipaas",
+        "provider",
+        "jd",
+        "zero-llm",
+        "gateway",
+        "intranet",
+        "sso"
+      ],
+      "author": "otto-team",
+      "homepage": "https://x-ottojs.github.io/otto/",
+      "versionPolicy": "latest-release"
     }
   ]
 }

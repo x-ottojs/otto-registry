@@ -109,6 +109,25 @@
       "author": "otto-team",
       "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-cursor",
       "versionPolicy": "latest-release"
+    },
+    {
+      "id": "plugin-oxygen",
+      "type": "plugin",
+      "description": "API-key-based OxygenModel gateway provider (llm-gw.jd.local, intranet). Exposes 'oxygen' (OpenAI-compatible) and 'oxygen-claude' (Anthropic-compatible) providers.",
+      "source": "@x-otto/plugin-oxygen",
+      "capabilities": [
+        "provider"
+      ],
+      "keywords": [
+        "oxygen",
+        "provider",
+        "api-key",
+        "gateway",
+        "intranet"
+      ],
+      "author": "otto-team",
+      "homepage": "https://github.com/aniwei/x-coding-agent/tree/dev/extensions/plugin-oxygen",
+      "versionPolicy": "latest-release"
     }
   ]
 }
